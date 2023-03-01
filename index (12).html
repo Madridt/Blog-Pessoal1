@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=-ZdF5Oe2LCcHLFDTZjvCmL93tCvShDrusgzQOshS2mtSSHjRzhoiuC7InxEc6wDIp-IrVyI6v993reJnDFzZc3uKTEl9gjszQ0MBnMNSlpIzXHY9tW63q0yWmzYxnvJKbvF9QqVqRpzEnJAWMdducuMvVwSgl1fU6r1JPG0RV0rj91l9MNR5fQ5gGzZbHkmGlhdMPwjtFBf-Tpm98Ou45yqYe2XNLOBdzJQU36VTgBEfNimgVlQwfRaJunyhccjvDgW73x8mNIhoLm2M8AADzfo_isIDLIzwZz8Mr9nIHWoDTvMAs_BL-rJkykpkQEZQm8gAmHVmDAkcezZLjzikCdEvoXWhc9HBFuJKuDFYmcA4NLDngSjeZoWGxbT1waURcVt00N-zafXO8tWDRuugacCwB7HPiTxXgJjpXz84hwLfUIIli9IMY1HHZZupDHCLQsnFG14sm0XyTIIG1e_3RK6sriphUV5NLZBeHIdb3vZmGURnZ2rQWr8up4GptVUQCG7xe61I3BrvpFv5A7WZlDL4AbPQ3YzXoBfI0tDii4Ajca7cZLNyhIPBzXPo4F_gR_E2mdXUXYhTMT-2KBDbc8g9YAZC_TZD33wV6b1IyjRTow_RJii66c4ehZgzOu7AF6AGL5KrqYJTK7evKYhrv_0fihHuNpEEzoXgF9w0_Whcs4BK3VDcwBu6Ey20FAEql6Cw5za8c5Yp30eGQ5i3QVHy0cnjtohpXr-Z81USrXw6zZp5imjLekjmvkdfLoklQl05pLia8iuEy5R7bRPVjZE5-gXW0Cxh6BHdxZUf8AJgivHeSi-OYtnMw_kuYY3YogSqglQgumASj0MJGFOwyURXNlMewN_d43Le6SR_q9199Gp6LIW_o2eWoQUOgmmYcbT-z2OONujrhr-l3nwFARQ7j7-eCq21vW8imXlX9gYkn0oVZrJ6BiaJR_6PB_EldWXyrrEFn5QkTRl4fSuXjPvzUrwgqt4c6L8BN8Y2er1wAsOIsD-bXaf9Dt8Tkjci2cS6Jbe8u3Oud6qgUasPOjSOBkrRUm5-nyG78_ILTqTIkyJ3WkmVi5UGpE09qj5qtasgBawoMZ4Jy7QUAUTVh1WFVhYtUi_LGAhvCa4SNaraMBjulzx7LWkJ4OjLhNt0x1naXAWK6I0hq_restZeAMySS4nMM8tqmw8etieyWOpHWm6G5VjdFJjrp4tJMN4NVhrMD1TDjBZIWwOBP8xmYB3PeFO-7MNWbfEBwgPdfnW3O7hl8PDLHKV2PGGoGeA9haUA2pFnRPewZ2dIwtU_Gs9A1XEcbyy6kX9PWOkqOyozCZCFGReIt_xLKZf8iiisonR7bUfm4kSCtzlJew8I9w-ionzzanSFnxi15dsdscpmMJ7MZDLHH3AsRYOWLuavRwUACtR3VhTdDknSqdm5qgKRgpKorK9DpjiLOZfqmodiB4DZzbbsOj0mLcL4vAT00ciOxfQ6PiM21c46HhS60mhlWsquyFIcIwonjHHmZBaBRAP7Y8IJxubeqlw6fFIxXrXwrZXEc1Lxs3zuZqbbgHMe0owjs1wA7PMYtKsG_FKiIFGvV_q1IRSdvd5mmuWaAO38wYiOfGFrHc_5wnUgPaHj3UeBYUy8q9yND72m3EQmeDKtMjYgX2t5AQxOjb6LKRQpdybEhmDp9MRy9copUftlsotKk2DyT-0gQ0F981201HGQb6QBxv7U73c3vRJYiIrTNRe7U3UWy7o9bMOxMA_TwLynkdKFbkp6vmbB5gQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMHMtMTgtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy8wanZ0Z3VoY2RwaGY1NTg1Y29mNGJtNm45ajB0MGxyYS9naGJkNGJraDc0ZTFocTdwN2xhc3BtbnZrYnUzb2o0MS8xNjc3MjY1NDI1MDAwLzE2NTc1MDcyNzg2NzQ4ODE5OTI4LzAxOTI1NzM4OTM5OTQ1MjUxNzY5LzFZWWpwTVR4Ymh5SXczRXdJVWV3b1NBMVg2d3IyTUd2Sz9lPWRvd25sb2FkJmF4PUFCODVaMUFCTFVhQUlLTFNqY3U5cGJZLWt3STdaQURWeTRuU3RmWVhpaU5fdTN1TWU3ZE5ZWHJQc1lobTdPNEw5aWVxZ2lZTTR1YUdCaHRZeXNwV2c4dy12UXd1YXQ1TDZPYUlsaWxwb0VyTDV5UmdhVUtJcTkyNFJMb2NMZWxHVWc4SG9kQkFZUTQzR2ZfVE9mSTZadTdfakZubHVxUlZrdXVvc3RqZ19zdExmNFdkZHhfaUg4S2dTajY0V2hocDkySFlZQklhQUxvNW9yOVpid2hWdEZHa1hreEN4Um9LWjY4T29EWTdXc0VVU0xsMXB1ZVd5V3RXb2E4VEpUcFRBT2hYbUtVU3VKV0pxTkt4aDJmckJ0ME9OTlU2eXNPZFZNVmE4WEFXRHFUejNDSzg5ZmNaMTFSNFN4dnc4VU9QYmdyZE5pOTUyeTNtdHhHVkNFdnRRbGY1VU1zbEVoalExMEw1YVc5eUJpaHVjOHlQampSeVplOW8xMzBCV2JodGFxVGthWTJSNWkydm9Sa1ZtMjFYU2xIWUZYWWxYdjgyS2wyNlo1THFVNFNTdThFQ19oMkUzVG8tOG1hS2Q0NkM1dFN1clZIbFZFQnppVUxRcWo3VXpoN2hhdS02dnVuRUVxN24yeVFnRGg2LVFYdUVyUXJycmRrazFja3lVaXJJQ05JZ05HQnVDYmJzM0RIWFJYN1B6clJJdFNYcTY4aFBTQnA2djVMeFpvZDZUbm9fb3c0NnJnMDRWUW1uYkFTeW92VUl0TGxvbjJHWklCYVJGc3l2UDlMYjVjd1VGVG9sQ194d0dvaTJmY2xKOGtnQlNwQ2ZlcUZyTVp5SWhmdE9WbTJrbW43aW1DTjRXWk5RVlF2eDRXNjBRVmRXZHp1REdBUXQ3QnhxaFRuMDJER3BKNThNZW1rSWdjZ3g0SlhpMXBqbVc1TDVWaWc0eDlIUExGd1hOWTduQng5YTlKTk0zMnJValZVSGdMVFBnQU5uVVNQaURVdXpJQVI0MWpJX0l6OEwyZ2VObE92UFJuYlp2ZlN0WXdJWUFlZmhtcmZqWklwYWpreTNqSlB3Y3pXVVF6Y1dhREZHcEowcUNvUWxJTTBxWFkta1JiRHRlbDZtUkNyQ1NZMTUtd0I1cnJWZVlONjZFZFR5ZDE2Rm5udk9kRjgzQXJDTU44ZkVDQ1ZOQW9IMFNhVXF1akh2NnlxVmNMcDlXZkhjWWVoVGZlbE1mYnNjRXBNcSZ1dWlkPTM1Nzg5OWIyLTBmMGItNDFhYy1iOGRlLTgzN2VjOWQ5YzFjOCZhdXRodXNlcj0wJm5vbmNlPW0yYjAyZzZvaTNxbmEmdXNlcj0wMTkyNTczODkzOTk0NTI1MTc2OSZoYXNoPXQwbjVkN2M3Y2NqNm5vcmJobTJoMXY4ZzF2MWZqOWxz"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Luma Madrid Teixeira</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#Viagem">Viagem</a></li>
+        <li><a href="#Filmes">Filmes</a></li>
+        <li><a href="#Books">Livros</a></li>
+        <li><a href="#Contact">Sobre Mim</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<!--
+começe a programar daqui
+-->
+    <div class="container">
+      <h2 class="page-header" id="viagem">Lugares que Você tem que Conhecer!</h2>
+
+      <center>
+        <div class="viagem_mainDiv">
+          <img src="HopiHari.jpg">
+
+          <h4 class="text-capitalize"><kbd>Hopi Hari</kbd></h4>
+
+          <hr>
+
+          <h5 class="text-sucess text capitalize"> Eu visitei em Março de 2022</h5>
+
+          <p class="text-muted"><b>H</b>opi Hari é um parque de diversões, onde podemos nos divertir.
+             <b>L</b>á existem vários brinquedos como: Montezun, Katapul, Vurang e muitos outros.
+              <b>S</b>empre quando foi visitar o parque, veja se o clima está quente, 
+              pois tem vários brinquedos onde podemos nos refrescar!</p>
+        </div>
+      </center>
+
+      <h2 class="page-header" id="Filmes">Crítica de Filmes</h2>
+  <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#DesventurasEmSérie" > 
+    <span class="glyphicon glyphicon-film" ></span> Desventuras Em Série <i class="fa fa-sort-desc" ></i> 
+  </div>
+     <div id="DesventurasEmSérie" class="collapse">
+       <div class="filmesText">
+         <img src="DesventurasEmSérie.webp"class="img-responsive img-thumbnail" > 
+         <h5 class="text-success text-capitalize">Ótimo para se ver uma vez
+           <span class="glyphicon glyphicon-star" ></span> 
+           <span class="glyphicon glyphicon-star" ></span>
+            <span class="glyphicon glyphicon-star" ></span>
+           </h5>
+            <p>Essa série contém 3 temporadas, eu gostei muito da série, pois contém mistérios e dá vontade de continuar assistindo sem parar.
+               Na série conta um trágico incêndio que matou os pais(Beatrice e Bertrand Baudelaire) dos Baudelaires (Klaus, Violet e Sunny Baudelaire) e que, os filhos deveram passar por várias aventuras escapando do Conde Olaf
+                ,um integrante de um grupo misterioso da série quesempre quis a fortuna dos Baudelaires. Eu adorei a 
+                série, mas queria que continuasse, pois o último episódio <b>(spoilers)</b> eles se perdem 
+                  numa ilha e e tentam voltar para a cidade, mas no episódio só mostra eles embarcando no barco, não mostrando se eles sobreviveram ou não.</p>
+           </div>
+ 
+           
+           <h2 class="page-header" id="livros">Lista de Livros</h2>
+           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+<img src="Percy Jackson.jpg" class="img-responsive">
+<hr>
+<a href="https://www.amazon.com.br/Ladr%C3%A3o-Raios-S%C3%A9rie-Jackson-Olimpianos/dp/8580575397?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN">
+  Percy Jackson</a>
+</div>
+    
+  <section id="contact">
+    <iframe src="" height="450" frameborder="0"  allowfullscreen=""></iframe>
+
+    <hr>
+    <img src="Luma.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3>Luma Madrid Teixeira</h3>
+
+        <div class="contact_1" >
+
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;lumamaluestrelas@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;Madridt_</h5>
+            </a> 
+
+            <a href="#"> 
+              <h5><i class="fa fa-youtube" ></i>&nbsp;&nbsp;Luluzinha Mix</h5>
+           </a> 
+        </div>
+</section>
+
+
+</body>
+
+</html>
